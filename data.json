@@ -1,0 +1,73 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "For this project, I focused on putting basic JavaScript syntax into action. I built an interactive Random Quote Generator that leverages arrays and objects to pull and display a new piece of text to the screen with every button click.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://zahnawoodson-sys.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/zahnawoodson-sys/techdegree-project-1",
+            "image_urls": [
+                "/images/rqg_thumb.png",
+                "/images/rqg_1.png",
+                "/images/rqg_2.png"
+            ]
+        },
+
+         {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "For this project, I focused on improving the user experience when handling large datasets. I used JavaScript to take a massive list of student data and break it down into smaller, manageable 'pages' with interactive navigation, ensuring the interface never feels overwhelming.",
+            "technologies": ["JavaScript", "HTML", "CSS", "DOM Manipulation"],
+            "live_link": "https://zahnawoodson-sys.github.io/techdegree-project-2/",
+            "github_link": "https://github.com/zahnawoodson-sys/techdegree-project-2",
+            "image_urls": [
+                "/images/dpf_thumb.png",
+                "/images/dpf_1.png",
+                "/images/dpf_2.png"
+            ]
+        },
+
+         {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Forms are the backbone of data collection on the web, so I used this project to focus on making them highly interactive and user-friendly. I wrote custom JavaScript to catch errors and validate user input in real-time, making the overall flow engaging and intuitive to use.",
+            "technologies": ["JavaScript", "HTML", "CSS", "Regular Expressions", "Form Validation"],
+            "live_link": "https://zahnawoodson-sys.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/zahnawoodson-sys/techdegree-project-3",
+            "image_urls": [
+                "/images/if_thumb.png",
+                "/images/if_1.png",
+                "/images/if_2.png"
+            ]
+        },
+
+         {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "For this project, I dove deep into Object-Oriented Programming (OOP) to build a browser-based word guessing game called Phrase Hunter. I structured the code using JavaScript classes to cleanly manage the game logic, handle the onscreen keyboard interactions, and track the player's remaining attempts.",
+            "technologies": ["JavaScript", "HTML", "CSS", "Object-Oriented Programming"],
+            "live_link": "https://zahnawoodson-sys.github.io/techdegree-project-4/",
+            "github_link": "https://github.com/zahnawoodson-sys/techdegree-project-4",
+            "image_urls": [
+                "/images/oop_thumb.png",
+                "/images/oop_1.png",
+                "/images/oop_2.png"
+            ]
+        },
+
+         {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "For this project, I focused on asynchronous programming by communicating with a third-party API. I built an employee directory that uses JavaScript to request data from an external server, parse the resulting JSON, and dynamically display the information on the page.",
+            "technologies": ["JavaScript", "HTML", "CSS", "Fetch API", "JSON"],
+            "live_link": "https://zahnawoodson-sys.github.io/techdegree-project-5/",
+            "github_link": "https://github.com/zahnawoodson-sys/techdegree-project-5",
+            "image_urls": [
+                "/images/api_thumb.png",
+                "/images/api_1.png",
+                "/images/api_2.png"
+            ]
+        }
+    ]
+}

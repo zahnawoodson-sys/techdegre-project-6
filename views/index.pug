@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Zahna Woodson | Software Engineer & Systems Builder
+
+    p This portfolio showcases my journey into full-stack JavaScript development through the AnitaB.org Apprenticeship Pathway Program. Blending my background in community organizing, data strategy, and operations with modern web development, the projects featured here demonstrate my ability to build interactive, accessible, and data-driven applications using Node.js, Express, and JavaScript. My work reflects a commitment to designing equitable technical systems and practical solutions for real-world problems.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`/static${project.image_urls[0]}`, alt=`Thumbnail ${project.project_name}`)
+            h5= project.project_name
+
+
