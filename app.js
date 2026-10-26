@@ -20,11 +20,18 @@ app.get('/about', (req, res) => {
 });
 
 //Project route
-app.get('/project/:id', (req, res) => {
-    const projectId = req.params.id;
-    const project = data.projects[projectId];
-
+app.get('/project/:id', (req, res, next) => {
+  const projectId = req.params.id;
+  const project = data.projects[projectId];
+  
+  if (project) {
     res.render('project', { project: project });
+  } else {
+    const err = new Error('Uh oh! It looks like that project does not exist.');
+    err.status = 404;
+    console.log(`Error ${err.status}: ${err.message}`);
+    next(err);
+  }
 });
 
 //4. Adding Error handling route
